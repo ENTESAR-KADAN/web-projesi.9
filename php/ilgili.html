@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTESAR KADAN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="ilgili.css">
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="img/x-icon">
+</head>
+
+<body>
+
+
+    <header>
+        <div class="navbar">
+            <nav>
+                <a href="#anasayfa" id="logo">ENTESAR KADAN</a>
+                <ul>
+                    <li><a href="index.html">Ana sayfa</a></li>
+                    <li><a href="index.html#hakkımda"> Hakkımda</a></li>
+                    <li><a href="ilgili.html"> İlgili Alanlarım</a></li>
+                    <li><a href="index.html#sehrim">Şehrim</a></li>
+                    <li><a href="index.html#cv">CV</a></li>
+                    <li><a href="mirasımız.html">Mirasımız</a></li>
+                    <li><a href="iletişim.html">İletişim</a></li>
+                    <li><a href="giriş.html">Giriş yap</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <form id="form">
+            <input type="text" placeholder="Search" id="search" class="search">
+        </form>
+    </header>
+    <div id="tags"></div>
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content" id="overlay-content"></div>
+
+        <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a>
+
+        <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow">&#8658;</a>
+
+    </div>
+    <main id="main"></main>
+    <div class="pagination">
+        <div class="page" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+
+    </div>
+
+    <script src="ilgili.js"></script>
+</body>
+
+</html>

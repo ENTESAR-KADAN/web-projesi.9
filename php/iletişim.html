@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENTESAR KADAN - İletişim</title>
+  <link rel="stylesheet" href="iletişim.css">
+  <link rel="shortcut icon" href="./favicon-32x32.png" type="img/x-icon">
+</head>
+<body>
+  <header id="anasayfa">
+    <div class="navbar">
+      <nav>
+        <a href="#anasayfa" id="logo">ENTESAR KADAN</a>
+        <ul>
+          <li><a href="index.html">Ana sayfa</a></li>
+          <li><a href="index.html#hakkımda"> Hakkımda</a></li>
+          <li><a href="ilgili.html"> İlgili Alanlarım</a></li>
+          <li><a href="index.html#sehrim">Şehrim</a></li>
+          <li><a href="index.html#cv">CV</a></li>
+          <li><a href="mirasımız.html">Mirasımız</a></li>
+          <li><a href="iletişim.html">İletişim</a></li>
+          <li><a href="giriş.html">Giriş yap</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <h2>İletişim</h2>
+    <form id="contact-form" action="send_email.php" method="POST">
+      <label for="name">Adınız:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Mesajınız:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Gönder">
+    </form>
+    <div id="form-message"></div>
+  </div>
+
+  <script src="contact.js"></script>
+</body>
+</html>
