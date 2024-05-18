@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 html{
@@ -102,6 +103,9 @@ header .navbar nav ul a {
 }
 
 
+header .navbar nav ul a:hover {
+    color: rgb(32, 201, 151);
+}
 body {
    
     font-family: Arial, sans-serif;

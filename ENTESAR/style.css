@@ -163,6 +163,10 @@ header .header-content img {
 
 }
 
+header .navbar nav ul a:hover {
+    color: rgb(32, 201, 151);
+}
+
 /*header end*/
 
 /*hakımda başla*/

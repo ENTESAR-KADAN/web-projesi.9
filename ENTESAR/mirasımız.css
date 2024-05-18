@@ -99,6 +99,9 @@ header .navbar nav ul a {
     color: var(--primary-color);
     font-weight: 600;
 }
+header .navbar nav ul a:hover {
+    color: rgb(32, 201, 151);
+}
 #mirasımız {
     background-color: var(--primary-color);
     height: 100vh;
